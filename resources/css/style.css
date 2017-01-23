@@ -6,11 +6,12 @@ h1 {
   font-size: 70px;
   font-weight: bold;
 }
-nav {
+a {
   font-size: 18px;
+  color: white;
 }
-.header, #design {
-  background-image: url('./resources/the-flatiron-building.jpg');
+.header, .design {
+  background-image: url("./the-flatiron-building.jpg");
   color: white;
 }
 h2 {
@@ -26,7 +27,9 @@ p {
 }
 .footer {
   background-color: dimgray;
+  text-align: left;
+  color: white;
 }
-span {
+p.footer {
   font-size: 11px;
 }
